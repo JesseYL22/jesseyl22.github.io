@@ -1,0 +1,128 @@
+
+body {
+    margin: 0;  
+    padding: 0;
+    font-family: 'Georgia', serif; 
+    background-color: #ecf9fd;     
+    color: #242424;               
+  }
+  
+  /* Basic styling for paragraphs and headings */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  h1, h2, h3, h4 {
+    margin-bottom: 10px;
+  }
+  strong {
+    font-weight: bold;
+  }
+  em {
+    font-style: italic;
+  }
+  
+  /* Link styling */
+  a {
+    color: rgb(0, 92, 20);
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ebd122;
+  }
+  
+  .wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /*  NAVBAR  */
+  .navbar {
+    background-color: #77cbff;
+    padding: 10px 0;
+  }
+  
+  .navbar .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-brand {
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(0, 92, 20);
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar li a {
+    color: rgb(0, 92, 20);
+    font-size: 16px;
+    padding: 6px 8px;
+    border-radius: 4px;
+  }
+  .navbar li a:hover {
+    background-color: #ebd122;
+    color: #242424;
+  }
+  
+  .jumbotron {
+    background-image: url("../assets/backgroundfull.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 220%;
+    text-align: center;
+    color: rgb(0, 92, 20);
+    padding: 3% 0;
+    margin-bottom: 20px;
+  }
+  
+  .jumbotron h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  /*  IMAGES  */
+  img {
+    max-width: 100%;   /* Make images responsive */
+    height: auto;
+  }
+  
+  /* layout on the Forza page. */
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .flex-item {
+    flex: 1 1 300px;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  /* CARD-STYLE BOXES */
+  .card {
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .card:hover {
+    border-color: rgb(0, 92, 20);
+  }
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
